@@ -1,0 +1,6 @@
+1. Open for extends and closed for modification .
+2. New functionality is introduced by creating new classes or methods that extend or inherit from the existing ones.
+3. If we want to add new functionality into an existing class then we should not modify that class and add new functionality to it . else create new class which extends this class and add there new functionality .
+4. If we want to add new Functionality to an class then we should not modify that class we should extend that class and add new functionality in that class .
+5. Not altering an exting class/code else make new class and add new modification in it .
+6. If we want to add new functionality into a project then when our app is in production then it is not okay to modify the class directly therefore use new class such that production issue will not occur . That old code will be not affected we will extends that class and add new function to it .

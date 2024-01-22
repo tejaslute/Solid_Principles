@@ -1,0 +1,6 @@
+1. According to the Liskov Substitution Principle (LSP), if a software component (e.g., a function, method, or module) is designed to work with objects of a certain base class, it should be able to work correctly with objects of any derived class (subtype) without causing errors or unexpected behavior.
+2. objects of a base class should be replaceable with objects of its derived classes without altering the desirable properties of the program.
+3. Object of an parent class should be substible with an child class following an correctness of  program .
+4. If an class contains an private method then we cannot extend that methods so we use public method to access it and use it .
+5. Assigning a child class object to an parent class is valid and will produce an correct result .
+6. BaseClass baseObject = new DerivedClass();

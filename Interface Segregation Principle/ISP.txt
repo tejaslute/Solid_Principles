@@ -1,0 +1,6 @@
+1. a class should not be forced to implement methods that it does not use.
+2. Classes only implement methods that are relevant to their specific functionality. This avoids the burden of implementing unnecessary methods.
+3. To achieve this we should create an interface which is cohesive and has only related functionality .
+4. categorized the interface based on an behaviour .
+5. Classes can implement multiple interfaces, each addressing a specific responsibility. This provides flexibility in composing behaviors.
+6. Unnexessary class needs to override an method that is of no use of that class .
